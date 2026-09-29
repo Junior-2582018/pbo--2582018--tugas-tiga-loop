@@ -31,6 +31,20 @@ public class TigaLoop {
             iDoWhile++;
         } while (iDoWhile <= n);
 
+        int kurang = 0;
+        for (int i = 1; i < n; i++) {
+            kurang++;
+        }
+
+        int kurangSama = 0;
+        for (int i = 1; i <= n; i++) {
+            kurangSama++;
+        }
+
+        System.out.println();
+        System.out.println("i <  n berputar : " + kurang + " kali");
+        System.out.println("i <= n berputar : " + kurangSama + " kali");
+
         /*
 Kesimpulan:
 do-while mengecek kondisinya sesudah badan loop dijalankan,
